@@ -4,10 +4,10 @@ const { locale, locales, setLocale } = useI18n()
 
 const isDark = computed({
   get() {
-    return colorMode.value === "dark";
+    return locale.value === "es";
   },
   set() {
-    colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
+    setLocale( locale.value === "es" ? "en" : "es");
   },
 });
 </script>
@@ -20,10 +20,10 @@ const isDark = computed({
     >
       <Icon
         aria-hidden="true"
-        :name="isDark ? 'solar:sun-2-outline' : 'solar:moon-outline'"
+        :name="isDark ? 'twemoji:flag-for-flag-mexico' : 'openmoji:flag-united-states'"
         class="w-5 h-5"
       />
-      <span class="sr-only">Toggle theme</span>
+      <span class="sr-only">Toggle Lang</span>
     </button>
   </UTooltip>
 </template>

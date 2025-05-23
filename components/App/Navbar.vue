@@ -31,6 +31,9 @@
         <li>
           <AppThemeToggle />
         </li>
+        <li>
+          <AppLangToggle />
+        </li>
       </ul>
     </nav>
   </div>
