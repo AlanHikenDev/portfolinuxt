@@ -20,4 +20,5 @@
             </button>
         </div>
     </nav>
+    <AppNavbar />
 </template>

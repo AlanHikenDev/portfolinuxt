@@ -1,7 +1,14 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
    <div>
-    <mainheader></mainheader>
-    asd
-    <slot />
+    <UApp>
+      <AppNavbar></AppNavbar>
+        <UContainer>
+          <slot />
+        </UContainer>
+    </UApp>
   </div>
 </template>
