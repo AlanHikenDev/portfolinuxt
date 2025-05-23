@@ -5,10 +5,15 @@
 <template>
    <div>
     <UApp>
-      <AppNavbar></AppNavbar>
-        <UContainer>
-          <slot />
-        </UContainer>
+      <AppNavbar />
+      <div class="h-32"></div>
+      <UContainer>
+          <main class="min-h-screen">
+            <div class="space-y-24">
+              <slot />
+            </div>
+          </main>
+      </UContainer>
     </UApp>
   </div>
 </template>
