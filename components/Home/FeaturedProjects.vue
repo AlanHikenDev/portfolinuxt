@@ -15,14 +15,15 @@
         label="All Projects &rarr;"
         to="/projects"
         variant="link"
-        color="gray"
+        color="success"
       />
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-const { data: projects } = await useAsyncData("projects-home", () =>
-  queryContent("/projects").limit(3).find()
-);
+import projects from "~/assets/data/projects.json";
+//const { data: projects } = await useAsyncData("projects-home", () =>
+ // queryContent("/projects").limit(3).find()
+//);
 </script>

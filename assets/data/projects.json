@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Feedbackjar",
+        "url": "https://feedbackjar.app",
+        "description": "Open source feedback, roadmaps and changelogs",
+        "thumbnail": "/projects/feedbackjar.png",
+        "status": "WIP",
+        "opensource": true
+      },
+      {
+        "name": "Feedful",
+        "url": "https://feedful.app",
+        "description": "Modern news reader in tweetdeck style",
+        "thumbnail": "/projects/feedful.png",
+        "status": "Active"
+      },
+      {
+        "name": "Hawa",
+        "url": "https://github.com/fayazara/hawa",
+        "description": "A simple white noise app which sits in the menubar",
+        "thumbnail": "/projects/hawa.png",
+        "status": "Active",
+        "opensource": true
+      },
+      {
+        "name": "Pocketbase Nuxt",
+        "url": "https://github.com/fayazara/pocketbase-nuxt",
+        "description": "A starter template for Nuxt.js with Pocketbase",
+        "thumbnail": "/projects/pb-nuxt.png",
+        "status": "Active",
+        "opensource": true
+      },
+      {
+        "name": "Simple Online Tools",
+        "url": "https://simpleonline.tools",
+        "description": "Simple online tools for everyday use",
+        "thumbnail": "/projects/simpleonline-tools.png",
+        "status": "WIP",
+        "opensource": true
+      }      
+      
+]
