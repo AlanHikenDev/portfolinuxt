@@ -20,7 +20,11 @@
 </template>
 
 <script lang="ts" setup>
-import articles from "~/assets/data/articles.json";
+//import articles from "~/assets/data/articles.json";
+
+const articles = await queryCollection("articles")
+  .all();
+
 /*
 const { data: articles } = await useAsyncData("articles-home", () =>
   queryContent("/articles")

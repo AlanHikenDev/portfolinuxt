@@ -6,6 +6,9 @@
         <AppArticleCard :article="article" />
       </li>
     </ul>
+    <pre>
+      {{ articles }}
+    </pre>
   </main>
 </template>
 
@@ -17,7 +20,12 @@ useSeoMeta({
   description,
 });
 
-const { data: articles } = await useAsyncData("all-articles", () =>
-  queryContent("/articles").sort({ published: -1 }).find()
-);
+//const articles = await useAsyncData('articles', () => queryCollection('articles').all())
+
+const articles = await queryCollection("articles")
+  .all();
+
+//const { data: articles } = await useAsyncData("all-articles", () =>
+  // queryContent("/articles").sort({ published: -1 }).find()
+// );
 </script>
