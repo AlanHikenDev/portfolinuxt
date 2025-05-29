@@ -25,6 +25,10 @@
 </template>
 
 <script setup>
+//import ContentTextRotator from '@/components/content/ContentTextRotator.vue';
+//import ContentLabCard from '@/components/content/ContentLabCard.vue';
+//import ContentCodeView from '@/components/content/ContentCodeView.vue';
+
 const description = "Some random experiments with UI I do in my free time.";
 useSeoMeta({
   title: "Lab | Fayaz Ahmed",

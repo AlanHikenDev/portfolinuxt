@@ -18,5 +18,18 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', file: 'en.json' },
       { code: 'es', name: 'Español', file: 'es.json' }
     ]
-  }
+  },
+
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+    head: {
+      htmlAttrs: {
+        lang: "en",
+        class: "h-full",
+      },
+      bodyAttrs: {
+        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
+      },
+    },
+  },
 })

@@ -64,7 +64,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 defineProps({
   title: String,
   description: String,
