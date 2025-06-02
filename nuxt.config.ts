@@ -19,7 +19,6 @@ export default defineNuxtConfig({
       { code: 'es', name: 'Español', file: 'es.json' }
     ]
   },
-
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
