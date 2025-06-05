@@ -12,6 +12,6 @@
 useSeoMeta({
   title: "Alan Vasquez - Software Engineer ",
   description:
-    "I'm Alan vasquez, your friendly neighborhood software, product engineer and designer from Bengaluru, India. I specialize in building web applications and sites using Javascript, React, Vue & Node.",
+    "I'm Alan vasquez, your friendly neighborhood software, product engineer and designer from Oaxaca, Mexico . I specialize in building web applications and sites using Javascript, React, Vue & Node.",
 });
 </script>

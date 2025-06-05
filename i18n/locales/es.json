@@ -9,5 +9,12 @@
     "title": "¡Hola! Soy Alan Vasquez, desarrollador web backend",
     "description": "Transformo ideas en soluciones digitales eficientes y escalables.\nCon años de experiencia construyendo APIs robustas, arquitecturas limpias y aplicaciones web modernas, \nayudo a empresas y emprendedores a llevar sus proyectos al siguiente nivel.\n¿Tienes una idea o necesitas optimizar tu plataforma actual? \nHablemos.\n ",
     "secondary": "This is a work in progress, so please bear with me as I continue to improve it."
+  },
+  "social": {
+    "findme": "Encuéntrame en",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "email": "Email"
   }
 }

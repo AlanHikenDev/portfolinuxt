@@ -99,11 +99,11 @@ const items = [
     path: "/projects",
     icon: "solar:folder-with-files-outline",
   },
-  {
+  /*{
     name: "Articles",
     path: "/articles",
     icon: "solar:document-add-outline",
-  },
+  },*/
   { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
   {
     name: "What's in my bag?",
@@ -124,11 +124,13 @@ const ingles = [
     path: "en/projects",
     icon: "solar:folder-with-files-outline",
   },
+  /*
   {
     name: "Articles",
     path: "en/articles",
     icon: "solar:document-add-outline",
   },
+  */
   { name: "Lab", path: "/en/lab", icon: "heroicons:beaker" },
   {
     name: "What's in my bag?",

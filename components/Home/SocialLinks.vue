@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">FIND ME ON</h2>
+    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">{{ $t('social.findme')}}</h2>
     <div class="space-y-5">
       <NuxtLink
         v-for="link in links"
@@ -19,6 +19,7 @@
         <Icon :name="link.icon" class="w-6 h-6"></Icon>
       </NuxtLink>
     </div>
+    <div class="h-6 pb-8"></div>
   </div>
 </template>
 

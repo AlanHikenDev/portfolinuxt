@@ -6,8 +6,15 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "¡Hola! Im Alan Vasquez, developer web backend",
+    "title": "¡Hi! Im Alan Vasquez, developer web backend",
     "description": "I transform ideas into efficient and scalable digital solutions.\nWith years of experience building robust APIs, clean architectures, and modern web applications,\nI help companies and entrepreneurs take their projects to the next level.\nDo you have an idea or need to optimize your current platform?\nLet's talk\n",
     "secondary": "This is a work in progress, so please bear with me as I continue to improve it."
+  },
+  "social": {
+    "findme": "Find me on",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "email": "Email"
   }
 }
