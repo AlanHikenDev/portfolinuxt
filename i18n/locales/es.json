@@ -16,5 +16,8 @@
     "linkedin": "LinkedIn",
     "twitter": "Twitter",
     "email": "Email"
-  }
+  },
+  "footer": {
+    "rigths": "Todos los derechos reservados."
+   }
 }

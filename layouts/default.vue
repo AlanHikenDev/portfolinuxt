@@ -15,6 +15,8 @@
             </div>
           </main>
       </UContainer>
+      <div class="h-32"></div>
+      <AppFooter />
     </UApp>
   </div>
 </template>
