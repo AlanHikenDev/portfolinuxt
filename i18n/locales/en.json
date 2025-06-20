@@ -17,6 +17,18 @@
     "twitter": "Twitter",
     "email": "Email"
   },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "Here is a selection of my most recent and notable projects.",
+    "project1": {
+      "name": "Project One",
+      "description": "Description of Project One."
+    },
+    "project2": {
+      "name": "Project Two",
+      "description": "Description of Project Two."
+    }
+  },
   "footer": {
     "rigths": "All rights reserved."
    }

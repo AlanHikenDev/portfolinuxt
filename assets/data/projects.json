@@ -1,42 +1,52 @@
 [
     {
-        "name": "Feedbackjar",
-        "url": "https://feedbackjar.app",
-        "description": "Open source feedback, roadmaps and changelogs",
-        "thumbnail": "/projects/feedbackjar.png",
-        "status": "WIP",
-        "opensource": true
-      },
-      {
-        "name": "Feedful",
-        "url": "https://feedful.app",
-        "description": "Modern news reader in tweetdeck style",
-        "thumbnail": "/projects/feedful.png",
-        "status": "Active"
-      },
-      {
-        "name": "Hawa",
-        "url": "https://github.com/fayazara/hawa",
-        "description": "A simple white noise app which sits in the menubar",
-        "thumbnail": "/projects/hawa.png",
-        "status": "Active",
-        "opensource": true
-      },
-      {
-        "name": "Pocketbase Nuxt",
-        "url": "https://github.com/fayazara/pocketbase-nuxt",
-        "description": "A starter template for Nuxt.js with Pocketbase",
-        "thumbnail": "/projects/pb-nuxt.png",
-        "status": "Active",
-        "opensource": true
-      },
-      {
-        "name": "Simple Online Tools",
-        "url": "https://simpleonline.tools",
-        "description": "Simple online tools for everyday use",
-        "thumbnail": "/projects/simpleonline-tools.png",
-        "status": "WIP",
-        "opensource": true
-      }      
+      "name": "FINANZAS DE OAXACA (SEFIN)",
+      "url": "https://www.finanzasoaxaca.gob.mx/",
+      "description": "En este proyecto colaboré con el equipo de SEFIN para desarrollar un sistema de gestión financiera para el gobierno del estado de Oaxaca.",
+      "thumbnail": "/projects/cropped-cropped-log-sefin.png",
+      "tecnhologies": "SpringBoot, Java, PostgresQL, Bootstrap",
+      "date": "2017 - 2019",
+      "status": "WIP",
+      "opensource": false
+    },
+    {
+      "name": "Isabast.cl",
+      "url": "hhttps://isbast.com/",
+      "description": "Isbsat es una empresa del sector Inmobiliario.",
+      "thumbnail": "/projects/isbast.png",
+      "tecnhologies": "Laravel, Vuejs, MySQL, Bootstrap",
+      "date": "2017 - 2019",
+      "status": "Active"
+    },
+    {
+      "name": "usplat",
+      "url": "https://usplat.com/",
+      "description": "A simple white noise app which sits in the menubar",
+      "thumbnail": "/projects/usplat.png",
+      "tecnhologies": "Electron, Vuejs, Nodejs, TailwindCSS, Laravel",
+      "status": "Active",
+      "date": "2017 - 2019",
+      "opensource": true
+    },
+    {
+      "name": "Dropstudio",
+      "url": "https://github.com/fayazara/pocketbase-nuxt",
+      "description": "-Desarrollo y mantenimiento de aplicaciones web utilizando Laravel y otras tecnologías relacionadas. Laravel, Vue js.",
+      "thumbnail": "/projects/drop.png",
+      "status": "Active",
+      "tecnhologies": "Vuejs, TailwindCSS, Laravel, AWS S3",
+      "date": "2017 - 2019",
+      "opensource": true
+    },
+    {
+      "name": "CVA",
+      "url": "https://www.grupocva.com",
+      "description": "Programador web backend, desarrollando aplicaciones web y APIs RESTful utilizando Laravel y otras tecnologías relacionadas. -Colaboración en proyectos de desarrollo ágil, participando en reuniones diarias y revisiones de código.",
+      "thumbnail": "/projects/cva.png",
+      "tecnhologies": "Php, Laravel, OracleDb, TailwindCSS",
+      "status": "WIP",
+      "date": "2017 - 2019",
+      "opensource": true
+    }      
       
 ]

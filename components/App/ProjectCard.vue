@@ -10,6 +10,8 @@
         {{ project.name }}
       </h3>
       <p class="text-gray-400 text-sm">{{ project.description }}</p>
+      <p class="text-gray-400 text-sm"> {{ project.date }}</p>
+      <p class="text-gray-400 text-sm"> {{ project.tecnhologies }}</p>
     </div>
     <div
       class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"

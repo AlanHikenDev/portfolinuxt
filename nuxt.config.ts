@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       tailwindcss(),    
     ],  
   },
-  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxt/image','@nuxt/content'],
+  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxt/image','@nuxt/content','nuxt-particles'],
   i18n: {
     defaultLocale: 'es',
     locales: [

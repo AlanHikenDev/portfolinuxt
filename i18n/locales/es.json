@@ -17,6 +17,18 @@
     "twitter": "Twitter",
     "email": "Email"
   },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "description": "Aquí hay una selección de mis proyectos más recientes y destacados.",
+    "project1": {
+      "name": "Proyecto Uno",
+      "description": "Descripción del Proyecto Uno."
+    },
+    "project2": {
+      "name": "Proyecto Dos",
+      "description": "Descripción del Proyecto Dos."
+    }
+  },
   "footer": {
     "rigths": "Todos los derechos reservados."
    }

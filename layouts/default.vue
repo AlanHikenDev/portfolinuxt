@@ -1,13 +1,10 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
    <div>
     <UApp>
       <NuxtLoadingIndicator color="#14b8a6" />
       <AppNavbar />
       <div class="h-32"></div>
+     
       <UContainer>
           <main class="min-h-screen">
             <div class="space-y-24">
@@ -20,6 +17,19 @@
     </UApp>
   </div>
 </template>
+<script setup lang="ts">
+import type { Container } from '@tsparticles/engine'
+
+const options = {
+  // See https://particles.js.org/docs/interfaces/tsParticles_Engine.Options_Interfaces_IOptions.IOptions.html
+}
+
+const onLoad = (container: Container) => {
+  // Do something with the container
+  container.pause()
+  setTimeout(() => container.play(), 2000)
+}
+</script>
 <style>
 .page-enter-active,
 .page-leave-active {
