@@ -29,6 +29,22 @@
       "description": "Description of Project Two."
     }
   },
+  "mybag": {
+    "title": "My skills bag",
+    "description": "A collection of my skills and tools I use in my projects.",
+    "intro": "I chose to specialize in Vue, Nuxt, Laravel, and Flutter because I was looking for modern, efficient tools with strong communities that enable the development of scalable, high-performance applications across web and mobile. Laravel provides a robust and clean architecture for backend development, while Vue and Nuxt allow me to build dynamic, optimized user interfaces with a great user experience. Flutter, on the other hand, opened the door to cross-platform development with a single codebase. This combination empowers me to deliver fast, comprehensive solutions tailored to the needs of today’s digital landscape.",
+    "langstext": "I specialized in JavaScript, PHP, and TypeScript because they are versatile, widely adopted languages with strong ecosystems and powerful frameworks. PHP, especially with Laravel, allows me to build robust and secure backends quickly and elegantly. JavaScript is essential for modern web development and enables me to work on the frontend using frameworks like Vue and Nuxt. TypeScript enhances scalability and maintainability by adding static typing to JavaScript. This combination gives me the flexibility to develop full-stack solutions, both on the server and client sides.",
+    "items": [
+      {
+        "name": "Item One",
+        "description": "Description of Item One."
+      },
+      {
+        "name": "Item Two",
+        "description": "Description of Item Two."
+      }
+    ]
+  },
   "footer": {
     "rigths": "All rights reserved."
    }

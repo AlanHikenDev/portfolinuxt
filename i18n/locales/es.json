@@ -29,6 +29,22 @@
       "description": "Descripción del Proyecto Dos."
     }
   },
+  "mybag": {
+    "title": "Mis habilidades y herramientas",
+    "description": "Una colección de mis habilidades y herramientas que utilizo en mis proyectos.",
+    "intro": "Me especialicé en Vue, Nuxt, Laravel y Flutter porque buscaba herramientas modernas, eficientes y con comunidades activas que me permitieran crear aplicaciones escalables y de alto rendimiento tanto en web como en móviles. Laravel me brinda una arquitectura robusta y limpia para el backend, mientras que Vue y Nuxt me permiten desarrollar interfaces dinámicas y optimizadas con una gran experiencia de usuario. Flutter, por su parte, me abrió las puertas al desarrollo multiplataforma con una sola base de código. Esta combinación me permite entregar soluciones integrales, rápidas y adaptadas a las necesidades actuales del mercado digital.",
+    "langstext": "Me especialicé en JavaScript, PHP y TypeScript porque son lenguajes versátiles, ampliamente adoptados y con un gran ecosistema de herramientas y frameworks. PHP, especialmente con Laravel, me permite construir backends robustos y seguros de forma rápida y elegante. JavaScript es esencial en el desarrollo web moderno y me permite trabajar en el frontend con frameworks como Vue y Nuxt. TypeScript, por su parte, potencia la escalabilidad y mantenibilidad de los proyectos al añadir tipado estático sobre JavaScript. Esta combinación me brinda flexibilidad para desarrollar soluciones completas, tanto del lado del servidor como del cliente.",
+    "items": [
+      {
+        "name": "Item One",
+        "description": "Description of Item One."
+      },
+      {
+        "name": "Item Two",
+        "description": "Description of Item Two."
+      }
+    ]
+  },
   "footer": {
     "rigths": "Todos los derechos reservados."
    }

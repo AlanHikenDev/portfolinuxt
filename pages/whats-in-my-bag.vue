@@ -2,45 +2,50 @@
   <main class="min-h-screen">
     <AppHeader
       class="mb-12"
-      title="What's in my bag?"
-      :description="description"
+      :title="$t('mybag.title')"
+      :description="$t('mybag.description')"
     />
-    <div class="space-y-24">
-      <ul class="space-y-8">
-        <AppUsesHeader title="Hardware" />
-        <AppUsesItem v-for="(item, id) in hardware" :key="id" :item="item" />
-      </ul>
-      <ul class="space-y-8">
-        <AppUsesHeader title="Software" />
-        <AppUsesItem v-for="(item, id) in software" :key="id" :item="item" />
-      </ul>
-      <ul class="space-y-8">
-        <AppUsesHeader title="Desk" />
-        <AppUsesItem v-for="(item, id) in desk" :key="id" :item="item" />
-      </ul>
-      <ul class="space-y-8">
-        <AppUsesHeader title="Other" />
-        <AppUsesItem v-for="(item, id) in other" :key="id" :item="item" />
-      </ul>
-    </div>
+    <AppUsesHeader title="Frameworks" />
+    <AppParrfo class="mb-12">
+      {{ $t('mybag.intro') }}
+    </AppParrfo>
+    <AppFrameWorks class="mb-12" />
+    <AppUsesHeader title="language" />
+    <AppParrfo class="mb-12">
+      {{ $t('mybag.langstext') }}
+    </AppParrfo>
+    <AppLangs class="mb-12" />
   </main>
 </template>
 
 <script setup>
 import items from "~/assets/data/bag.json";
 
-const description =
-  "Software I use, gadgets I love, and other things I recommend. Here’s a big list of all of my favorite stuff.";
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+
 useSeoMeta({
-  title: "Things I use | Fayaz Ahmed",
-  description,
+  title: "Things I use | Alan vasquez - Software Engineer",
 });
 //const { data: items } = await useAsyncData("uses", () =>
   //queryContent("/uses").find()
 //);
-
+/*
+    [
+  {
+    "name": "Cleanshot",
+    "description": "You might be wondering why would I pay for a screenshot taking tool. Well, it's is not just a screenshot taking tool. It is a complete package of tools that you can use to take screenshots, record your screen, annotate your screenshots, and much more. It's worth it.",
+    "url": "https://cleanshot.com/",
+    "category": "software"
+  }
+]
+*/
+/* 
 const hardware = items.filter((item) => item.category === "hardware");
 const software = items.filter((item) => item.category === "software");
 const desk = items.filter((item) => item.category === "desk");
 const other = items.filter((item) => item.category === "others");
+*/
 </script>
