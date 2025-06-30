@@ -25,14 +25,15 @@
 
 <script lang="ts" setup>
 const links = [
-  {
+  /*{
     name: "Twitter",
     url: "https://twitter.com/fayazara",
     icon: "mdi:twitter",
   },
+  */
   {
     name: "GitHub",
-    url: "https://github.com/fayazara",
+    url: "https://github.com/AlanHikenDev",
     icon: "mdi:github",
   },
   {
@@ -42,7 +43,7 @@ const links = [
   },
   {
     name: "Telegram",
-    url: "https://t.me/fayazara",
+    url: "https://t.me/alandevtech",
     icon: "mdi:telegram",
   },
 ];

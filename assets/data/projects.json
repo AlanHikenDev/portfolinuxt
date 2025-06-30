@@ -10,12 +10,12 @@
       "opensource": false
     },
     {
-      "name": "Isabast.cl",
-      "url": "hhttps://isbast.com/",
+      "name": "Isbast.cl",
+      "url": "https://isbast.com/",
       "description": "Isbsat es una empresa del sector Inmobiliario.",
       "thumbnail": "/projects/isbast.png",
       "tecnhologies": "Laravel, Vuejs, MySQL, Bootstrap",
-      "date": "2017 - 2019",
+      "date": "2019 - 2021",
       "status": "Active"
     },
     {
@@ -25,7 +25,7 @@
       "thumbnail": "/projects/usplat.png",
       "tecnhologies": "Electron, Vuejs, Nodejs, TailwindCSS, Laravel",
       "status": "Active",
-      "date": "2017 - 2019",
+      "date": "2021 - 2021",
       "opensource": true
     },
     {
@@ -35,7 +35,7 @@
       "thumbnail": "/projects/drop.png",
       "status": "Active",
       "tecnhologies": "Vuejs, TailwindCSS, Laravel, AWS S3",
-      "date": "2017 - 2019",
+      "date": "2013 - 2019",
       "opensource": true
     },
     {
