@@ -45,6 +45,22 @@
       }
     ]
   },
+  "bookmark": {
+    "title": "Mis bookmarks",
+    "description": "A collection of useful links and resources that I use in my daily work.",
+    "items": [
+      {
+        "name": "Bookmark One",
+        "url": "https://example.com/bookmark1",
+        "description": "Description of Bookmark One."
+      },
+      {
+        "name": "Bookmark Two",
+        "url": "https://example.com/bookmark2",
+        "description": "Description of Bookmark Two."
+      }
+    ]
+  },
   "footer": {
     "rigths": "All rights reserved."
    }

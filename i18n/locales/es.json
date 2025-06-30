@@ -45,6 +45,22 @@
       }
     ]
   },
+  "bookmark": {
+    "title": "Mis marcadores",
+    "description": "Una colección de enlaces útiles y recursos que utilizo en mi trabajo diario.",
+    "items": [
+      {
+        "id": 1,
+        "label": "Adam Wathan - Tailwind CSS Best Practice Patterns",
+        "url": "https://www.youtube.com/watch?v=J_7_mnFSLDg"
+      },
+      {
+        "name": "Bookmark Two",
+        "url": "https://example.com/bookmark2",
+        "description": "Description of Bookmark Two."
+      }
+    ]
+  },
   "footer": {
     "rigths": "Todos los derechos reservados."
    }

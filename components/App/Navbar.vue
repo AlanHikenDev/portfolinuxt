@@ -93,18 +93,20 @@ const isEsp = computed({
 
 // español 
 const items = [
-  { name: "Home", path: "/", icon: "solar:home-smile-outline" },
+  { 
+    name: "Home", 
+    path: "/", 
+    icon: "solar:home-smile-outline"
+  },
   {
     name: "Projects",
     path: "/projects",
     icon: "solar:folder-with-files-outline",
   },
-  /*{
-    name: "Articles",
-    path: "/articles",
-    icon: "solar:document-add-outline",
-  },*/
-  { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
+  { 
+    name: "Lab", 
+    path: "/lab", 
+    icon: "heroicons:beaker" },
   {
     name: "What's in my bag?",
     path: "/whats-in-my-bag",
@@ -118,10 +120,13 @@ const items = [
 ];
 
 const ingles = [
-  { name: "Home", path: "/en", icon: "solar:home-smile-outline" },
+  { 
+    name: "Home", 
+    path: "/en", 
+    icon: "solar:home-smile-outline" },
   {
     name: "Projects",
-    path: "en/projects",
+    path: "/en/projects",
     icon: "solar:folder-with-files-outline",
   },
   /*
@@ -131,15 +136,19 @@ const ingles = [
     icon: "solar:document-add-outline",
   },
   */
-  { name: "Lab", path: "/en/lab", icon: "heroicons:beaker" },
+  { 
+    name: "Lab", 
+    path: "/en/lab", 
+    icon: "heroicons:beaker" 
+  },
   {
     name: "What's in my bag?",
-    path: "en/whats-in-my-bag",
+    path: "/en/whats-in-my-bag",
     icon: "solar:backpack-outline",
   },
   {
     name: "Bookmarks",
-    path: "en/bookmarks",
+    path: "/en/bookmarks",
     icon: "solar:bookmark-linear",
   },
 ];
