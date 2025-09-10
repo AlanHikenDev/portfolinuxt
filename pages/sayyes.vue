@@ -1,6 +1,9 @@
 <template>
     <div>
-        <div class="container">
+        <div v-if="sayYes" class="container">
+            <h1> In new it </h1>
+        </div>
+        <div v-else class="container">
             <!-- Área donde se dibuja el puntero -->
             <div class="display">
                 <h2 class="text-black">¿eres gay?</h2>
@@ -20,9 +23,7 @@
                 <p>Mueve el mouse aquí 🎮</p>
             </div>
         </div>
-        <div class="oh yes">
-
-        </div>
+        
     </div>
 </template>
 
@@ -47,6 +48,7 @@ function clickbtn1() {
     console.log('Alert click 1')
     if (isVirtual.value) {
         console.log("Click vino del cursor virtual");
+        sayYes.value = true
     } else {
         console.log("Click real con mouse/touch");
     }
@@ -58,7 +60,11 @@ function clickbtn2() {
         console.log("Click vino del cursor virtual");
         const btn3 = document.getElementById('btn2')
         btn3.textContent = "Si";
+        
+        setTimeout(() => {
 
+            sayYes.value = true
+        }, 1000);
     } else {
         console.log("Click real con mouse/touch");
     }
