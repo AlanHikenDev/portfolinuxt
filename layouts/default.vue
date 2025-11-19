@@ -20,6 +20,16 @@
 <script setup lang="ts">
 import type { Container } from '@tsparticles/engine'
 
+import { onMounted, onBeforeUnmount } from 'vue'
+
+onMounted(() => {
+  document.body.classList.add('antialiased', 'bg-gray-50', 'dark:bg-black', 'min-h-screen')
+})
+
+onBeforeUnmount(() => {
+  document.body.classList.remove('antialiased', 'bg-gray-50', 'dark:bg-black', 'min-h-screen')
+})
+
 const options = {
   // See https://particles.js.org/docs/interfaces/tsParticles_Engine.Options_Interfaces_IOptions.IOptions.html
 }

@@ -24,10 +24,10 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: "en",
-        class: "h-full",
+        //class: "h-full",
       },
       bodyAttrs: {
-        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
+        //class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
     },
   },
