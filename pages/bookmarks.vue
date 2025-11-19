@@ -50,7 +50,7 @@ const bookmarks = [
   {
     id: 3,
     label: "Circuit design stock image",
-    url: "",
+    url: "https://github.com/",
   },
   {
     id: 4,
@@ -65,6 +65,7 @@ const bookmarks = [
 ];
 
 function getHost(url) {
+console.log(url);
   const parsedUrl = new URL(url);
   let host = parsedUrl.host;
   if (host.startsWith("www.")) {
