@@ -6,8 +6,8 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "¡Hola! Soy Alan Vasquez, desarrollador web backend",
-    "description": "Transformo ideas en soluciones digitales eficientes y escalables.\nCon años de experiencia construyendo APIs robustas, arquitecturas limpias y aplicaciones web modernas, \nayudo a empresas y emprendedores a llevar sus proyectos al siguiente nivel.\n¿Tienes una idea o necesitas optimizar tu plataforma actual? \nHablemos.\n ",
+    "title": "¡Hola! Soy Alan Vasquez, Ingeniero de Software Senior & Líder Técnico",
+    "description": "Especialista en diseñar y operar servicios escalables y de alto rendimiento. Con más de 8 años de experiencia, lidero características técnicas de principio a fin, desde el diseño de sistemas distribuidos hasta el despliegue en producción.\nExperto en Java, GraphQL, Kafka y arquitecturas Cloud-Native. Transformo requisitos complejos de negocio en soluciones técnicas robustas y confiables.",
     "secondary": "This is a work in progress, so please bear with me as I continue to improve it."
   },
   "social": {
@@ -18,8 +18,8 @@
     "email": "Email"
   },
   "projects": {
-    "title": "Proyectos Destacados",
-    "description": "Aquí hay una selección de mis proyectos más recientes y destacados.",
+    "title": "Experiencia Relevante",
+    "description": "Proyectos y roles donde he aplicado ingeniería de software a gran escala.",
     "project1": {
       "name": "Proyecto Uno",
       "description": "Descripción del Proyecto Uno."
@@ -30,10 +30,10 @@
     }
   },
   "mybag": {
-    "title": "Mis habilidades y herramientas",
-    "description": "Una colección de mis habilidades y herramientas que utilizo en mis proyectos.",
-    "intro": "Me especialicé en Vue, Nuxt, Laravel y Flutter porque buscaba herramientas modernas, eficientes y con comunidades activas que me permitieran crear aplicaciones escalables y de alto rendimiento tanto en web como en móviles. Laravel me brinda una arquitectura robusta y limpia para el backend, mientras que Vue y Nuxt me permiten desarrollar interfaces dinámicas y optimizadas con una gran experiencia de usuario. Flutter, por su parte, me abrió las puertas al desarrollo multiplataforma con una sola base de código. Esta combinación me permite entregar soluciones integrales, rápidas y adaptadas a las necesidades actuales del mercado digital.",
-    "langstext": "Me especialicé en JavaScript, PHP y TypeScript porque son lenguajes versátiles, ampliamente adoptados y con un gran ecosistema de herramientas y frameworks. PHP, especialmente con Laravel, me permite construir backends robustos y seguros de forma rápida y elegante. JavaScript es esencial en el desarrollo web moderno y me permite trabajar en el frontend con frameworks como Vue y Nuxt. TypeScript, por su parte, potencia la escalabilidad y mantenibilidad de los proyectos al añadir tipado estático sobre JavaScript. Esta combinación me brinda flexibilidad para desarrollar soluciones completas, tanto del lado del servidor como del cliente.",
+    "title": "Stack Tecnológico & Herramientas",
+    "description": "Las tecnologías que utilizo para construir sistemas de clase mundial.",
+    "intro": "Mi enfoque se centra en la escalabilidad y la confiabilidad. Utilizo Java y GraphQL para construir APIs potentes, y Kafka junto con Aerospike y Elasticsearch para pipelines de datos en tiempo real. En el frontend, creo interfaces intuitivas con React y Javascript. Todo esto orquestado sobre Kubernetes y Docker, asegurando despliegues continuos y monitoreo efectivo con DataDog.",
+    "langstext": "Domino un amplio espectro de lenguajes y herramientas. Java es mi núcleo para el backend de alto rendimiento, mientras que JavaScript y TypeScript me permiten flexibilidad en todo el stack. SQL y NoSQL son fundamentales en mi diseño de datos. Mi experiencia se extiende a la infraestructura como código y la observabilidad, garantizando que lo que construyo no solo funcione, sino que perdure.",
     "items": [
       {
         "name": "Item One",
@@ -63,5 +63,5 @@
   },
   "footer": {
     "rigths": "Todos los derechos reservados."
-   }
+  }
 }

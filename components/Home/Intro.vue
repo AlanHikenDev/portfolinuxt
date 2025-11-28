@@ -10,8 +10,8 @@
 
 <script setup>
 useSeoMeta({
-  title: "Alan Vasquez - Software Engineer ",
+  title: "Alan Vasquez - Senior Software Engineer & Tech Lead",
   description:
-    "I'm Alan vasquez, your friendly neighborhood software, product engineer and designer from Oaxaca, Mexico . I specialize in building web applications and sites using Javascript, React, Vue & Node.",
+    "I'm Alan Vasquez, a Senior Software Engineer specializing in scalable services, distributed systems, and cloud-native architectures. Expert in Java, GraphQL, Kafka, and React.",
 });
 </script>

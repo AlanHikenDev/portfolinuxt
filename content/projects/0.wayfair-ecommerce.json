@@ -1,0 +1,8 @@
+{
+    "name": "Plataforma de E-commerce Escalable",
+    "url": "#",
+    "description": "Arquitectura de microservicios para manejar alto tráfico en eventos de ventas masivas. Implementado con Java, Kafka y Kubernetes.",
+    "thumbnail": "/projects/feedbackjar.png",
+    "status": "Production",
+    "opensource": false
+}

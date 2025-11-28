@@ -1,0 +1,8 @@
+{
+    "name": "Sistema de Publicidad en Tiempo Real",
+    "url": "#",
+    "description": "Backend de baja latencia para subastas de publicidad (RTB). Utilizando Aerospike y Elasticsearch para decisiones en milisegundos.",
+    "thumbnail": "/projects/feedbackjar.png",
+    "status": "Production",
+    "opensource": false
+}

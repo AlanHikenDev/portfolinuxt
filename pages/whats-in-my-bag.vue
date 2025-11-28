@@ -5,12 +5,12 @@
       :title="$t('mybag.title')"
       :description="$t('mybag.description')"
     />
-    <AppUsesHeader title="Frameworks" />
+    <AppUsesHeader title="Infraestructura & Data" />
     <AppParrfo class="mb-12">
       {{ $t('mybag.intro') }}
     </AppParrfo>
     <AppFrameWorks class="mb-12" />
-    <AppUsesHeader title="language" />
+    <AppUsesHeader title="Lenguajes & Frontend" />
     <AppParrfo class="mb-12">
       {{ $t('mybag.langstext') }}
     </AppParrfo>
