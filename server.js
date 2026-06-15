@@ -1,1 +1,1 @@
-import('./.output/server/index.mjs');
+export { default } from './.output/server/index.mjs';
