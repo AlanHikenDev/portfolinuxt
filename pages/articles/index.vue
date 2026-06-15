@@ -20,12 +20,7 @@ useSeoMeta({
   description,
 });
 
-//const articles = await useAsyncData('articles', () => queryCollection('articles').all())
-
-const articles = await queryCollection("articles")
-  .all();
-
-//const { data: articles } = await useAsyncData("all-articles", () =>
-  // queryContent("/articles").sort({ published: -1 }).find()
-// );
+const { data: articles } = await useAsyncData("all-articles", () =>
+  queryContent("/articles").sort({ published: -1 }).find()
+);
 </script>

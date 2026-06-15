@@ -22,10 +22,6 @@
 <script lang="ts" setup>
 //import articles from "~/assets/data/articles.json";
 
-const articles = await queryCollection("articles")
-  .all();
-
-/*
 const { data: articles } = await useAsyncData("articles-home", () =>
   queryContent("/articles")
     .sort({ published: -1 })
@@ -33,5 +29,4 @@ const { data: articles } = await useAsyncData("articles-home", () =>
     .only(["title", "description", "published", "slug", "_path"])
     .find()
 );
-*/
 </script>
